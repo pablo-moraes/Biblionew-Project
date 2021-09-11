@@ -1,0 +1,122 @@
+/** Informações Gerais sobre cada classe
+ *  - As classes com lg ao final dizem respeito às
+ *  classes aplicadas em elementos da página de login
+ *  
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.white-box {
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #383845;
+}
+
+.form-white {
+    background: #FFF;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+h1.ubuntu {
+    font-size: 36px;
+}
+
+.bkg-body {
+    background: #F0F0F5;
+}
+
+.logo-sm {
+    width: 15vmin;
+}
+
+.text-black-2 {
+    color: #383845;
+}
+
+.text-black-2:hover * {
+    color: #4F80E1;
+}
+
+.text-black-2:hover {
+    color: #383845;
+}
+
+/*.container-12 {
+    padding: 1% 35%;
+}*/
+
+
+.personal-container {
+    margin: 0 5%;
+}
+
+.register-container {
+    background: #FFF;
+    border-radius: 8px;
+    padding: 6%;
+}
+
+.register-padding {
+    padding: 5%;
+}
+
+.input-lg, .btn-lg {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-control, .form-select {
+    background: #f0f0f5 !important;
+    /*border-radius: 8px !important;*/
+    color: #A0A0B2;
+    border: none !important;
+}
+
+.form-label {
+    font-size: 14px !important;
+    color: #6c6c80;
+}
+
+.input-lg {
+    background: #FFF;
+    border: 1px solid #DCDCE6;
+}
+
+.btn-color {
+    background: #4F80E1;
+    color: #FFF;
+}
+
+.btn-color:hover {
+    color: #FFF;
+}
+
+.undraw-image {
+    width: 139vh;
+}
+
+@media only screen and (max-width: 1250px) {
+    section:nth-child(2) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1250px) {
+    section:nth-child(1) {
+        max-width: 500px;
+    }
+    
+}
